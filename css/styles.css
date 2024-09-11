@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.caja1 {
+    height: 50px;
+    background-color: yellow;
+}
+
+.caja2 {
+    height: 50px;
+    background-color: rgb(60, 0, 255);
+}
+
+.caja3 {
+    height: 50px;
+    background-color: rgb(17, 255, 0);
+}
+
+.caja4 {
+    height: 100px;
+    background-color: rgb(251, 0, 255);
+    border: 2px solid white;
+}
+
+.container-fluid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja6 {
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+}
+
+
+.cajaArticle {
+    height: 700px;
+    background-color: rgb(173, 14, 165);
+    border: 2px solid white;
+}
+.caja5 {
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+}
+.caja7 {
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+}
+.caja8 {
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+}
+.caja9 {
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+}
+
+
+.cajaAside {
+    
+    top: 0;
+    height:100vh;
+    height: 800px;
+    background-color: rgb(89, 0, 255);
+    border: 2px solid white;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+@media (max-width: 767px) {
+    .cajaAside {
+        display: none; 
+    }
+}
