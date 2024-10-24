@@ -10,7 +10,7 @@ body {
 
 .caja1 {
     height: 50px;
-    background-color: yellow;
+    background-color: rgb(255, 166, 32);
 }
 
 .caja2 {
@@ -74,7 +74,7 @@ body {
     top: 0;
     height:100vh;
     height: 800px;
-    background-color: rgb(89, 0, 255);
+    background-color: rgb(174, 131, 255);
     border: 2px solid white;
     flex-direction: column;
     display: flex;
